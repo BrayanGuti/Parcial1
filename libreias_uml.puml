@@ -1,0 +1,22 @@
+@startuml
+class Libreria{
+repertorio_total : Dict
+
+agregar_libros(lista_libros : str [])
+eliminar(libro : str)
+libros disponibles()
+rentar(libro : str)
+devolver(llibro : str)
+
+}
+class Student{
+name : str
+
+
+
+rentar(libreria : Libreria, libro : str)
+devolver(libreria : Libreria, libro : str)
+}
+
+Libreria "1"--"*" Student
+@enduml
