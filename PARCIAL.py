@@ -1,1 +1,1 @@
-print("Antes del parcial :D")
+print("Antes del parcial :Ddasdas")
