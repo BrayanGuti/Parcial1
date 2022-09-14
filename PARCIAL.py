@@ -1,1 +1,0 @@
-print("Antes del parcial :Ddasdas")
